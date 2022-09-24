@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-tailwind-css": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
     "url": "https://github.com/alain-kubwayo/spacex-website/issues"
   },
   "homepage": "https://github.com/alain-kubwayo/spacex-website#readme",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.1.8"
   }
 }

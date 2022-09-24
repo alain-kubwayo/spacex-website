@@ -4,10 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tesla Website</title>
+    <title>SpaceX</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <h1>Tesla Website</h1>
+<body class="font-body box-border bg-black m-0 p-0 text-white">
+    <header class="fixed top-0 left-0 w-full z-10 flex justify-between items-center uppercase h-24 py-0 px-8">
+        <!-- logo -->
+        <div class="w-[150px] mx-auto md:w-40 h-auto">
+            <a href="index.html">
+                <img src="./assets/logo.png" alt="SpaceX" class="w-full block h-auto">
+            </a>
+        </div>
+        <!-- desktop menu -->
+        <ul class="gap-4 hidden md:flex">
+            <li class="hover:underline">
+                <a href="falcon9.html">Falcon 9</a>
+            </li>
+            <li class="hover:underline">
+                <a href="falcon-heavy.html">Falcon Heavy</a>
+            </li>
+            <li class="hover:underline">
+                <a href="dragon.html">Dragon</a>
+            </li>
+            <li class="hover:underline">
+                <a href="#">Starship</a>
+            </li>
+            <li class="hover:underline">
+                <a href="#">Human Spaceflight</a>
+            </li>
+            <li class="hidden lg:block hover:underline">
+                <a href="#">Rideshare</a>
+            </li>
+            <li class="hidden lg:block hover:underline">
+                <a href="#">Falcon 9</a>
+            </li>
+            <li class="hidden lg:block hover:underline">
+                <a href="#">Shop</a>
+            </li>
+        </ul>
+    </header>
+    <!-- Hamburger -->
+    <button class="fixed top-[40px] right-[20px] cursor-pointer z-20 h-[20px] w-[20px] bg-none border-none">
+        <svg class="w-6 h-6 block md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+    </button>
+    <!-- section a -->
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/section-a.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute bottom-[75px] sm:bottom-[200px] left-[20px] sm:left-[150px] max-w-[560px]">
+            <h4 class="text-lg mb-4 font-light">Upcoming Launch</h4>
+            <h2 class="sm:text-3xl font-bold mb-8 text-xl">CRS-25 Mission</h2>
+            <button class="inline-block uppercase font-bold px-8 py-3 border-2 border-white">Rewatch</button>
+        </div>
+    </section>
+    <!-- section b -->
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/section-b.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute bottom-[75px] sm:bottom-[200px] left-[20px] sm:left-[150px] max-w-[560px]">
+            <h4 class="text-lg mb-4 font-light">Recent Launch</h4>
+            <h2 class="sm:text-3xl font-bold mb-8 text-xl">Starlink Mission</h2>
+            <button class="inline-block uppercase font-bold px-8 py-3 border-2 border-white">Rewatch</button>
+        </div>
+    </section>
+    <!-- section c -->
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/section-c.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute bottom-[75px] sm:bottom-[200px] left-[20px] sm:left-[150px] max-w-[560px]">
+            <h4 class="text-lg mb-4 font-light">Recent Mission</h4>
+            <h2 class="sm:text-3xl font-bold mb-8 text-xl">SES-22 Mission</h2>
+            <button class="inline-block uppercase font-bold px-8 py-3 border-2 border-white">Rewatch</button>
+        </div>
+    </section>
+    <!-- section d -->
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/section-d.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute bottom-[75px] sm:bottom-[200px] left-[20px] sm:left-[150px] max-w-[560px]">
+            <h4 class="text-lg mb-4 font-light">Recent Launch</h4>
+            <h2 class="sm:text-3xl font-bold mb-8 text-xl">Globalstar FM15 Mission</h2>
+            <button class="inline-block uppercase font-bold px-8 py-3 border-2 border-white">Rewatch</button>
+        </div>
+    </section>
+    <!-- section e -->
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/section-e.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute bottom-[75px] sm:bottom-[200px] left-[20px] sm:left-[150px] max-w-[560px]">
+            <h2 class="sm:text-3xl font-bold mb-8 text-xl">Starship Update</h2>
+            <button class="inline-block uppercase font-bold px-8 py-3 border-2 border-white">Rewatch</button>
+        </div>
+    </section>
+    <!-- section f -->
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/section-f.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute bottom-[75px] sm:bottom-[200px] left-[20px] sm:left-[150px] max-w-[560px]">
+            <h2 class="sm:text-3xl font-bold mb-8 text-xl">Starship to add NASA astronauts on the moon</h2>
+            <button class="inline-block uppercase font-bold px-8 py-3 border-2 border-white">Rewatch</button>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="relative py-16 sm:py-32 px-0">
+        <p class="text-gray-400 uppercase text-center block sm:hidden mb-4">SpaceX &copy; 2022</p>
+        <ul class="flex justify-center items-center flex-wrap gap-2 sm:gap-4">
+            <li class="hidden sm:block text-gray-400 uppercase">SpaceX &copy; 2022</li>
+            <li class="hover:text-gray-400"><a href="#">Twitter</a></li>
+            <li class="hover:text-gray-400"><a href="#">YouTube</a></li>
+            <li class="hover:text-gray-400"><a href="#">Instagram</a></li>
+            <li class="hover:text-gray-400"><a href="#">Flickr</a></li>
+            <li class="hover:text-gray-400"><a href="#">LinkedIn</a></li>
+            <li class="hover:text-gray-400"><a href="#">Privacy</a></li>
+            <li class="hover:text-gray-400"><a href="#">Suppliers</a></li>
+        </ul>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX - Dragon</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="font-body box-border bg-black m-0 p-0 text-white">
+    <header class="fixed top-0 left-0 w-full z-10 flex justify-between items-center uppercase h-24 py-0 px-8">
+        <!-- logo -->
+        <div class="w-[150px] mx-auto md:w-40 h-auto">
+            <a href="index.html">
+                <img src="./assets/logo.png" alt="SpaceX" class="w-full block h-auto">
+            </a>
+        </div>
+        <!-- desktop menu -->
+        <ul class="mr-8 gap-4 hidden md:flex">
+            <li class="hover:underline">
+                <a href="falcon9.html">Falcon 9</a>
+            </li>
+            <li class="hover:underline">
+                <a href="falcon-heavy.html">Falcon Heavy</a>
+            </li>
+            <li class="hover:underline">
+                <a href="dragon.html">Dragon</a>
+            </li>
+            <li class="hover:underline">
+                <a href="#">Starship</a>
+            </li>
+            <li class="hover:underline">
+                <a href="#">Human Spaceflight</a>
+            </li>
+            <li class="hidden lg:block hover:underline">
+                <a href="#">Rideshare</a>
+            </li>
+            <li class="hidden lg:block hover:underline">
+                <a href="#">Falcon 9</a>
+            </li>
+            <li class="hidden lg:block hover:underline">
+                <a href="#">Shop</a>
+            </li>
+        </ul>
+    </header>
+    <!-- Hamburger -->
+    <button class="fixed top-[40px] right-[20px] cursor-pointer z-20 h-[20px] w-[20px] bg-none border-none">
+        <svg class="w-6 h-6 block md:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+    </button>
+    <section class="relative uppercase h-[100vh] bg-[url('./assets/falcon-9.webp')] bg-cover bg-center bg-no-repeat">
+        <div class="absolute text-center w-full mx-auto top-[50%]">
+            <h3 class="text-5xl mb-4 font-bold">Dragon</h3>
+            <p>Sending humans and cargo into space</p>
+        </div>
+    </section>
+    <div class="w-4/5 mx-auto flex flex-col md:flex-row text-center justify-between items-center uppercase">
+        <div>
+            <span class="text-5xl md:text-9xl">34</span>
+            <p class="text-lg font-semibold">Total Launches</p>
+        </div>
+        <div>
+            <span class="text-5xl md:text-9xl">31</span>
+            <p class="text-lg font-semibold">Visits to the ISS</p>
+        </div>
+        <div>
+            <span class="text-5xl md:text-9xl">13</span>
+            <p class="text-lg font-semibold">Reflow Missions</p>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="relative py-16 sm:py-32 px-0">
+        <p class="text-gray-400 uppercase text-center block sm:hidden mb-4">SpaceX &copy; 2022</p>
+        <ul class="flex justify-center items-center flex-wrap gap-2 sm:gap-4">
+            <li class="hidden sm:block text-gray-400 uppercase">SpaceX &copy; 2022</li>
+            <li class="hover:text-gray-400"><a href="#">Twitter</a></li>
+            <li class="hover:text-gray-400"><a href="#">YouTube</a></li>
+            <li class="hover:text-gray-400"><a href="#">Instagram</a></li>
+            <li class="hover:text-gray-400"><a href="#">Flickr</a></li>
+            <li class="hover:text-gray-400"><a href="#">LinkedIn</a></li>
+            <li class="hover:text-gray-400"><a href="#">Privacy</a></li>
+            <li class="hover:text-gray-400"><a href="#">Suppliers</a></li>
+        </ul>
+    </footer>
+    <h1></h1>
+</body>
+</html>
