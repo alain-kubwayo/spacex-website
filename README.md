@@ -1,6 +1,6 @@
 # spacex-website
 
-<p float="left">
+<p>
     <img src="./public/assets/screenshot-1.png" alt="Screenshot" width="400" height="400" />
     <img src="./public/assets/screenshot-2.png" alt="Screenshot" width="400" height="400" />
 </p>
